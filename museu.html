@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Museu Nacional- Projeto</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="style-museu.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container">
+      <!-- Início container-->
+
+      <header>
+        <!-- Início Header-->
+        <div id="logo">
+          <h1><a href="">Museu Nacional</a></h1>
+        </div>
+
+        <nav>
+          <!-- Início barra de navegação-->
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Exposições</a></li>
+            <li><a href="">Pesquisa</a></li>
+            <li><a href="">Acervo</a></li>
+            <li><a href="">Vídeos</a></li>
+            <li><a href="">Fotos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </nav>
+        <!-- Fim barra de navegação-->
+      </header>
+      <!-- Fim Header-->
+
+      <div id="principal">
+        <!-- Início principal-->
+
+        <div id="conteudo">
+          <!-- Início conteudo-->
+          <section id="capa">
+            <img src="imagens/museu.png" />
+          </section>
+
+          <section id="postagens">
+            <article id="video">
+              <!-- Início video-->
+              <h3>Vídeo: conheça o museu</h3>
+              <iframe
+                width="310"
+                height="170"
+                src="https://www.youtube.com/embed/RGUYb-hivrc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+
+              <article id="mapa">
+                <!-- Início mapa -->
+                <h3>Mapa: Encontre o museu</h3>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1641503040906!5m2!1spt-BR!2sbr"
+                  width="310"
+                  height="170"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </article>
+              <!-- Fim mapa -->
+            </article>
+            <!--Fim video -->
+
+            <article id="exposicoes">
+              <!-- Início exposições -->
+              <h3>Exposições</h3>
+              <ul>
+                <li><a href="#">Os assustadores insetos</a></li>
+
+                <li>
+                  <a href="#"
+                    >O crânio de Luzia, a mulher mais antiga do Brasil</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#">Preguiça gigante e tigre-dentes-de-sabre</a>
+                </li>
+
+                <li><a href="#">Plantas do Brasil</a></li>
+
+                <li><a href="#">Teresa Cristina: A Imperatriz</a></li>
+
+                <li><a href="#">Arte Com Dinossauros - Paleoarte</a></li>
+
+                <li>
+                  <a href="#"><strong>Veja todos (65)</strong> </a>
+                </li>
+              </ul>
+            </article>
+            <!-- Fim exposições -->
+
+            <article id="historia">
+              <!-- Início história -->
+              <h3>200 anos de história</h3>
+              <p>
+                O Museu Nacional, vinculado à Universidade Federal do Rio de
+                Janeiro (UFRJ), é a mais antiga instituição científica do Brasil
+                que, até setembro de 2018, figurou como um dos maiores museus de
+                história natural e de antropologia das Américas. Localiza-se no
+                interior do parque da Quinta da Boa Vista, na cidade do Rio de
+                Janeiro, estando instalado no Palácio de São Cristóvão. O
+                palácio serviu de residência à família real portuguesa de 1808 a
+                1821, abrigou a família imperial brasileira de 1822 a 1889 e
+                sediou a primeira Assembleia Constituinte Republicana de 1889 a
+                1891, antes de ser destinado ao uso do museu, em 1892. O
+                edifício é tombado pelo Instituto do Patrimônio Histórico e
+                Artístico Nacional (IPHAN) desde 1938.
+              </p>
+              <a href="#"><strong>Leia Mais</strong></a>
+            </article>
+            <!-- Fim história -->
+          </section>
+        </div>
+        <!-- Fim conteudo-->
+
+        <aside>
+          <!-- Início aside-->
+          <section id="depoimento">
+            <img src="imagens/depoimento.png" />
+          </section>
+
+          <section id="visita">
+            <!-- Início agendamento-->
+            <h4>Faça uma visita</h4>
+            <form>
+              <fieldset>
+                <legend>Selecione uma data</legend>
+
+                <label for="data">Data</label>
+                <input class="campo" type="text" id="data" value="dd/mm/aaaa" />
+
+                <label for="qtd">Qtd de pessoas</label>
+                <input type="text" style="width: 30px" id="qtd" value="1" />
+              </fieldset>
+
+              <input
+                class="botao"
+                type="submit"
+                value="Verificar disponibilidade"
+              />
+            </form>
+          </section>
+          <!-- Fim agendamento-->
+
+          <section id="galeria">
+            <h4>Galeria de fotos</h4>
+
+            <a href="">
+              <img
+                src="imagens/imagem1.jpg"
+                height="93px"
+                width="93px"
+                alt="imagem1"
+              />
+            </a>
+
+            <a href="">
+              <img
+                src="imagens/imagem2.jpg"
+                height="93px"
+                width="93px"
+                alt="imagem2"
+              />
+            </a>
+
+            <a href="">
+              <img
+                src="imagens/imagem3.jpg"
+                height="93px"
+                width="93px"
+                alt="imagem3"
+              />
+            </a>
+
+            <a href="">
+              <img
+                src="imagens/imagem4.jpg"
+                height="93px"
+                width="93px"
+                alt="imagem4"
+              />
+            </a>
+          </section>
+        </aside>
+        <!-- Fim aside-->
+
+        <footer>
+          <p>
+            <a href="#">Home</a>
+            <a href="#">Pesquisas</a>
+            <a href="#">Exposições</a>
+            <a href="#">Acervo</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Fotos</a>
+            <a href="#">Contato</a>
+          </p>
+          <p>
+            2023 <a href="#">Museu Nacional- Todos os direitos reservados</a>
+          </p>
+        </footer>
+      </div>
+      <!-- Fim principal-->
+    </div>
+    <!-- Fim container -->
+  </body>
+</html>
